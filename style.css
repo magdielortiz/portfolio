@@ -25,6 +25,7 @@ header {
   align-items: center;
   margin: 0px 10px 0px 10px;
   border-bottom: solid 1px #EEEEEE;
+  z-index: 1;
 }
 
 header h2 {
