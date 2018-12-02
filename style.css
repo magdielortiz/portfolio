@@ -64,6 +64,8 @@ header nav a {
   bottom: 30px;
   right: 0;
   opacity: 0;
+  -webkit-transition: opacity 0.5s ease-in;
+  -o-transition: opacity 0.5s ease-in;
   transition: opacity 0.5s ease-in;
   z-index: -1
 }
@@ -79,7 +81,7 @@ header nav a {
 .container h1 {
   font-size: 14px;
   border-top: solid 1px #EEEEEE;
-  padding-top: 10px;
+  padding-top: 4px;
 }
 
 .more-info {
@@ -269,6 +271,19 @@ footer {
   .bio .right img {
     width: 55vw;
   }
+}
 
+/**Iphone**/
+@media (max-width: 465.5px) {
+
+  .overlay {
+    position: inherit;
+    opacity: 1;
+  }
+
+
+  .overlay img {
+    width: 100%;
+}
 
 }
