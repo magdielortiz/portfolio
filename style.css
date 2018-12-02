@@ -30,7 +30,7 @@ header {
 
 header h2 {
  font-size: 10px;
- font-weight: 400;
+ font-weight: 300;
 }
 
 header nav {
@@ -79,9 +79,11 @@ header nav a {
 }
 
 .container h1 {
-  font-size: 14px;
+  font-size: 13px;
+  font-weight: normal;
   border-top: solid 1px #EEEEEE;
   padding-top: 4px;
+  margin-top: 5px;
 }
 
 .more-info {
