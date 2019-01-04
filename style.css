@@ -30,7 +30,7 @@ header {
 
 header h2 {
  font-size: 10px;
- font-weight: 300;
+ font-weight: 400;
 }
 
 header nav {
@@ -45,45 +45,26 @@ header nav a {
 }
 
 .container {
-  max-width: 100%;
+  width: 100%;
   margin-top: 75px;
   margin-bottom: 75px;
-  padding-left: 10px;
-  padding-right: 10px;
   display: flex;
-  flex-direction: column;
+  flex-wrap: wrap;
 }
 
 .proyect {
-  width: 32%;
-  margin-bottom:20px;
-}
-
-.overlay {
-  position: fixed;
-  bottom: 30px;
-  right: 0;
-  opacity: 0;
-  -webkit-transition: opacity 0.5s ease-in;
-  -o-transition: opacity 0.5s ease-in;
-  transition: opacity 0.5s ease-in;
-  z-index: -1;
-}
-
-.proyect:hover .overlay {
-  opacity: 1;
+  width: 31.98%;
+  margin: 10px;
 }
 
 .overlay img {
-  width: 67vw;
+  width: 100%;
 }
 
 .container h1 {
-  font-size: 13px;
-  font-weight: normal;
+  font-size: 14px;
   border-top: solid 1px #EEEEEE;
-  padding-top: 4px;
-  margin-top: 5px;
+  padding-top: 10px;
 }
 
 .more-info {
@@ -273,19 +254,6 @@ footer {
   .bio .right img {
     width: 55vw;
   }
-}
 
-/**Iphone**/
-@media (max-width: 465.5px) {
-
-  .overlay {
-    position: inherit;
-    opacity: 1;
-  }
-
-
-  .overlay img {
-    width: 100%;
-}
 
 }
