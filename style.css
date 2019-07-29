@@ -213,6 +213,16 @@ footer {
     width: 100%;
     margin-bottom:40px;
   }
+  .portfolio {
+    margin-left: 15px;
+    margin-right: 15px;
+  }
+
+  .portfolio img {
+    margin-bottom: 7px;
+    width: 100%;
+    padding-left: 0px;
+}
 
   .portfolio .content {
     display: block;
@@ -239,6 +249,10 @@ footer {
 
   .bio .right img {
     width: 55vw;
+  }
+
+  .images {
+    margin-bottom: 100px;
   }
 
   footer {
