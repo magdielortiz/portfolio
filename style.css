@@ -189,11 +189,28 @@ footer {
 
 @media (max-width: 768px) {
 
+  header {
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-top: 15px;
+  }
+
+  header h2 {
+    padding-left: 15px;
+  }
+
+  header nav a {
+    padding-right: 15px;
+  }
+
+  .container {
+    margin-right: 10px;
+  }
 
   .proyect {
     width: 100%;
     margin-bottom:40px;
-    padding: 12.5px;
+    padding-left: 0;
   }
 
   .portfolio .content {
@@ -221,6 +238,15 @@ footer {
 
   .bio .right img {
     width: 55vw;
+  }
+
+  footer {
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+
+  footer p {
+    padding-left: 15px;
   }
 
 
