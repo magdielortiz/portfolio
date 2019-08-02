@@ -128,6 +128,14 @@ header nav a {
   margin-top: 0px;
 }
 
+.prototype {
+  margin-bottom: 150px;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 5px;
+}
+
 .bio {
   max-width: 100%;
   margin-top: 100px;
@@ -253,6 +261,10 @@ footer {
 
   .images {
     margin-bottom: 100px;
+  }
+
+  .prototype {
+    padding-left: 16.5px;
   }
 
   footer {
