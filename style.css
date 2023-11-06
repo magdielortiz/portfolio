@@ -49,6 +49,7 @@ header nav a {
   margin-top: 50px;
   margin-bottom: 100px;
   display: flex;
+  justify-content: space-evenly;
   flex-wrap: wrap;
   padding: 25px;
 
