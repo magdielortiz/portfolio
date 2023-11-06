@@ -60,6 +60,8 @@ header nav a {
   text-align: center;
   padding-top: 50px;
   padding-bottom: 75px;
+  padding-left: 15%;
+  padding-right: 15%;
   width: 100%;
 }
 
